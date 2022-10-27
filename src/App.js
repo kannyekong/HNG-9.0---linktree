@@ -1,7 +1,8 @@
-import Home from "./Components/Header";
+import React from "react";
+import HomePage from "./Components/Pages/Homepage";
 
 function App() {
-  return <Home />;
+  return <HomePage />;
 }
 
 export default App;
