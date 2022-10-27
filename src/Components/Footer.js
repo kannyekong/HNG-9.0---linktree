@@ -4,7 +4,7 @@ import i4g from "../images/footer/i4g.png";
 
 const Footer = () => {
   return (
-    <div className="container static flex flex-row items-center justify-between px-12 py-12 mx-auto mt-24 border-t">
+    <div className="container static flex flex-row items-center justify-between py-8 mx-auto mt-24 border-t ">
       <div>
         <img src={zuri} alt="zuriinternship" />
       </div>
