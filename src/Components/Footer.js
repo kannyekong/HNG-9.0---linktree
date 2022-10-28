@@ -1,6 +1,5 @@
 import React from "react";
 import zuri from "../images/footer/zuri.png";
-import i4g from "../images/footer/i4g.png";
 
 const Footer = () => {
   return (
@@ -14,7 +13,7 @@ const Footer = () => {
         </p>
       </div>
       <div>
-        <img src={i4g} alt="ingressive4good" />
+        <img src="../images/footer/i4g.png" alt="ingressive4good" />
       </div>
     </div>
   );
