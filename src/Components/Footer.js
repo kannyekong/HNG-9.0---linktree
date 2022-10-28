@@ -1,5 +1,6 @@
 import React from "react";
 import zuri from "../images/footer/zuri.png";
+import ing from "../images/footer/ingressive.png";
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
         </p>
       </div>
       <div>
-        <img src="../images/footer/i4g.png" alt="ingressive4good" />
+        <img src={ing} alt="ingressive4good" />
       </div>
     </div>
   );
