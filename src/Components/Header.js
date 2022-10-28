@@ -5,11 +5,20 @@ import shareDot from "../images/main/shareDot.png";
 
 const Header = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center mx-auto space-y-4">
+    <div className="relative flex flex-col items-center justify-center mx-auto space-y-4 top-8">
       <div>
-        <img src={profile} className="w-16 h-16 rounded-full" alt="myProfile" />
+        <img
+          src={profile}
+          className="w-16 h-16 rounded-full"
+          alt="myProfile"
+          id="profile__img"
+        />
       </div>
+
+      {/* SLack USerNAme */}
+      <p className="hidden">USERNAME:Kanny</p>
       <a
+        id="twitter"
         target="_blank"
         rel="noreferrer"
         href="https://twitter.com/kannyyekong"

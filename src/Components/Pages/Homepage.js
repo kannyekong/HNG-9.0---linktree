@@ -5,7 +5,7 @@ import Footer from "../Footer";
 
 const HomePage = () => {
   return (
-    <div className="w-screen h-screen px-4 py-12 space-y-12 overflow-x-hidden md:px-24">
+    <div className="w-screen h-screen px-4 space-y-12 overflow-x-hidden md:px-24">
       <Header />
       <Body />
       <Footer />

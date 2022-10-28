@@ -5,19 +5,76 @@ import github from "../images/main/Icon.png";
 const Body = () => {
   return (
     <div className="body">
-      <div className="shelve">Twitter Link</div>
-      <div className="shelve">Zuri Team</div>
-      <div className="shelve">Zuri Books</div>
-      <div className="shelve">Python Books</div>
-      <div className="shelve">Background Check for Coders</div>
-      <div className="shelve">Design Books</div>
-      <div className="bodyTwo">
-        <div>
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://twitter.com/kannyyekong"
+        className="shelve"
+      >
+        Twitter Link
+      </a>
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://training.zuri.team/"
+        className="shelve"
+        id="btn__zuri"
+      >
+        Zuri Team
+      </a>
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="http://books.zuri.team/"
+        className="shelve"
+        id="books"
+      >
+        Zuri Books
+      </a>
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://books.zuri.team/python-for-beginners?ref_id=<Akaneno Ekong>"
+        className="shelve"
+        id="book__python"
+      >
+        Python Books
+      </a>
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://background.zuri.team"
+        className="shelve"
+        id="pitch"
+      >
+        Background Check for Coders
+      </a>
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://books.zuri.team/design-rules"
+        className="shelve"
+        id="book__design"
+      >
+        Design Books
+      </a>
+      <div className="pb-16 bodyTwo">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          id="slack"
+          href="https://kanny.slack.com"
+        >
+          <p className="hidden">USERNAME: Kanny</p>
           <img src={slack} alt="slack" />
-        </div>
-        <div>
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/kannyekong"
+        >
           <img src={github} alt="github" />
-        </div>
+        </a>
       </div>
     </div>
   );

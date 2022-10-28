@@ -6,7 +6,7 @@
   @apply w-full p-4 font-semibold bg-[#E9EBEF] rounded-md;
 }
 .body {
-  @apply flex flex-col items-center justify-center mx-auto space-y-3 text-center;
+  @apply flex flex-col items-center justify-center mx-auto space-y-4 pt-6 text-center;
 }
 .bodyTwo {
   @apply flex flex-row pt-6 space-x-6;
